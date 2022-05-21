@@ -26,8 +26,6 @@ let carros = [
 ]
 
 
-for (let carro of carros){
-    for(propriedade in carro){
-        console.log(carro[propriedade]);
-    }
+for (let carro of carros.entries()) {
+    console.log(carro)
 }
